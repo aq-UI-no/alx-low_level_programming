@@ -3,9 +3,9 @@
 /*
  *printing exactw= words followed by a new line
  *
- *main is the entry point
+ *main- Entry point
  *
- *return value is 0
+ *Return: 0 (success)
  *
  */
 
