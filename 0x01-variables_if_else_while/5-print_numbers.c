@@ -8,14 +8,15 @@
 
 int main(void)
 {
-	int i;
+	char letter = 'z';
 
-	for (i = 0; i <= 9; i++)
+	while (letter >= 'a')
 	{
-		printf("%d", i);
+		putchar(letter);
+		letter--;
 	}
+	putchar('\n');
 
-	printf("\n");
 	return (0);
 }
 
