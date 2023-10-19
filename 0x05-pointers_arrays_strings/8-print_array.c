@@ -4,10 +4,14 @@
  * print_array - the integer
  *@a: pointer
  *@n: value of space
+ *@i: integer
  */
 void print_array(int *a, int n)
 {
-for (n = 0; n < 4; n++)
-	printf("%d, ", *(a + n));
-printf("%d\n", *(a + n));
+	int i;
+for (i = 0; i < n; i++)
+	if (i < (n - 1))
+	printf("%d, ", *(a + i));
+	else
+printf("%d\n", *(a + i));
 }
