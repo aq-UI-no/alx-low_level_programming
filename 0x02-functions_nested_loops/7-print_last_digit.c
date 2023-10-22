@@ -13,12 +13,10 @@ int lastdigit;
 {
 	n = -n;
 }
-else
-if (n >= 0)
-{
-	n = n;
-}
+
 lastdigit = n % 10;
+
+_putchar(lastdigit + '0');
 
 return (lastdigit);
 }
