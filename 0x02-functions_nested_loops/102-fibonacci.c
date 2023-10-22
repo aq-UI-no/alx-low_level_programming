@@ -6,15 +6,15 @@
 */
 int main(void)
 {
-long long int fib1 = 1, fib2 = 2, nextFib;
+long int fib1 = 1, fib2 = 2, nextFib;
 int count;
 
-printf("%lld, %lld, ", fib1, fib2);
+printf("%ld, %ld, ", fib1, fib2);
 
 for (count = 3; count <= 50; count++)
 {
 nextFib = fib1 + fib2;
-printf("%lld", nextFib);
+printf("%ld", nextFib);
 
 if (count < 50)
 {
