@@ -26,7 +26,11 @@ factor++;
 
 return (factor);
 }
-
+/**
+ * main - entry point
+ *
+ * Return: 0 always
+ */
 int main(void)
 {
 long number = 612852475143;
