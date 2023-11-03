@@ -28,6 +28,7 @@ grid[i] = (int *)malloc(width * sizeof(int));
 
 if (grid[i] == NULL)
 {
+	free(grid);
 for (j = 0; j < i; j++)
 {
 free(grid[j]);
