@@ -19,12 +19,15 @@ for (counter = 0; counter < n; counter++)
 char *airport;
 airport = va_arg(my_list, char *);
 
+if (airport == NULL)
+	printf("nil");
+else
 printf("%s", airport);
 
 if (counter != n - 1)
 printf("%s", separator);
-else
-printf("\n");
 }
+printf("\n");
+
 va_end(my_list);
 }
