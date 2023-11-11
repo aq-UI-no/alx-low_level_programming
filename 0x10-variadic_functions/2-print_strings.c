@@ -20,7 +20,7 @@ char *airport;
 airport = va_arg(my_list, char *);
 
 if (airport == NULL || airport[0] == '\0')
-	printf("nil");
+	printf("(nil)");
 else
 printf("%s", airport);
 
