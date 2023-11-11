@@ -24,7 +24,7 @@ if (airport == NULL || airport[0] == '\0')
 else
 printf("%s", airport);
 
-if (counter != n - 1)
+if (counter != n - 1 && separator != NULL && airport[0] != '\0')
 printf("%s", separator);
 }
 printf("\n");
