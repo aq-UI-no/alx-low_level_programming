@@ -19,7 +19,7 @@ for (counter = 0; counter < n; counter++)
 char *airport;
 airport = va_arg(my_list, char *);
 
-if (airport == NULL)
+if (airport == NULL || airport[0] == '\0')
 	printf("nil");
 else
 printf("%s", airport);
